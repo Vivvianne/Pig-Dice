@@ -13,7 +13,7 @@ body{
     margin: 15px;
     border-radius: 25px;
 }
-.scores-container{
+.roller-console container{
     text-align: center;
     margin: 50px;
 }
@@ -23,7 +23,7 @@ body{
     border-radius: 25px;
 
 }
-.button{
+.btn3{
     border-radius: 25px;
     background-color: lightgray;
 }
