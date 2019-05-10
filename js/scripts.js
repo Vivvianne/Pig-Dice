@@ -29,3 +29,20 @@ roller.prototype.newRound = function(){
     this.tempscore = 0;
     this.totalscore = "";
 }
+
+// User interface
+
+$(document).ready(function(){
+    $("button#Begin").click(function(event){
+        roller1 = new Roller(true);
+        roller2 = new Roller(false);
+        $(".scores-container").show();
+        $(".btn1-menu").hide();
+
+        var roller1Name = $(".roller1Name").val();
+        $("#roller1Name").text(roller1Name);
+
+        var roller2Name = $(".roller2Name").val();
+        $("#roller2Name").text(roller2Name);
+    })
+})
