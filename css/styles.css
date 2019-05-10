@@ -1,0 +1,15 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+}
+.banner{
+    background-color: bisque;
+    /* background-image: url("../images/dice1.jpg");
+    background-repeat: no-repeat; */
+    border-radius: 25px;
+}
+.btn1{
+    background-color: grey;
+    margin: 15px;
+    border-radius: 25px;
+}
