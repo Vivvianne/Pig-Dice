@@ -8,64 +8,61 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+
+    <title>Pig Dice</title>
+</head>
+
+<body>
+    <div class="start-menu container">
+        <div class="play">
+            <div class="banner">
+                <h1>Pig-Dice</h1>
+                <h3>Let's play! <br>and let's see who wins! </h3>
+                <form id="player-1">
+                    <div class="form-group">
+                        <label for="player1Name">Player 1:</label><br>
+                        <input required class="player1Name" type="text" placeholder="Enter your name">
+                    </div>
+                </form>
+                <form id="player-2">
+                    <div class="form-group">
+                        <label for="player2Name">Player 2:</label><br>
+                        <input required class="player2Name" type="text" placeholder="Enter your name">
+                    </div>
+                </form>
+            </div>
+
+
+            <button id="start" class="btn">Start</buttonss>
+        </div>
+    </div>
+
+    <div class="player-console container">
+        <button id="new-game" class="btn">NEW GAME </button>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Player 1: <span id="player1Name"><span></h2>
+                <button id="player1-roll" class="btn">Roll</button>
+                <button id="player1-hold" class="btn">Hold</button>
+                <h2 id="die-roll-1">Dice Roll: </h2>
+                <p id="round-total-1">Round Total: </p>
+                <p id="total-score-1">Players Score: </p>
+            </div>
+
+            <div class="col-md-6">
+                <h2>Player 2: <span id="player2Name"><span></h2>
+                <button id="player2-roll" class="btn">Roll</button>
+                <button id="player2-hold" class="btn">Hold</button>
+                <h2 id="die-roll-2">Dice Roll: </h2>
+                <p id="round-total-2">Round Total: </p>
+                <p id="total-score-2">Players Score: </p>
+            </div>
+        </div>
+    </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="js/scripts.js">
-
-    <title>Iig Dice</title>
-</head>
-
-<body>
-    <div class="begin-menu container">
-        <div class="play">
-            <div class="banner">
-                <h1>Pig-Dice</h1>
-                <h3>Let's play!</h3>
-                <h5>Let's see who win's!</h5>
-            </div>
-
-            <form for roller1>
-                <form id="roller-1">
-                    <div class="form-group">
-                        <label for="roller1Name">Roller 1:</label><br>
-                        <input required class="roller1Name" type="text" placeholder="Enter your name">
-                    </div>
-                </form>
-                <form for roller2>
-                    <form id="roller-2">
-                        <div class="form-group">
-                            <label for="roller2Name">Roller 2:</label><br>
-                            <input required class="roller2Name" type="text" placeholder="Enter your name">
-                        </div>
-                    </form>
-
-                    <button id="begin" class="btn1">Begin</buttons>
-        </div>
-    </div>
-
-    <div class="roller-console container">
-        <button id="new-round" class="btn2">NEW ROUND </button>
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Roller 1: <span id="roller1Name"><span></h2>
-                <button id="roller1-roll" class="btn3">Roll</button>
-                <button id="roller1-hold" class="btn3">Hold</button>
-                <h2 id="roll-die1">Dice Roll: </h2>
-                <p id="total-round1">Round Total: </p>
-                <p id="score-total1">Rollers Scores: </p>
-            </div>
-
-            <div class="col-md-6">
-                <h2>Roller 2: <span id="roller2Name"><span></h2>
-                <button id="roller2-roll" class="btn3">Roll</button>
-                <button id="roller2-hold" class="btn3">Hold</button>
-                <h2 id="roll-die2">Dice Roll: </h2>
-                <p id="total-round2">Round Total: </p>
-                <p id="score-total2">Rollers Scores: </p>
-            </div>
-        </div>
-    </div>
 
 </body>
 
