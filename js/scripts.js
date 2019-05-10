@@ -45,4 +45,16 @@ $(document).ready(function(){
         var roller2Name = $(".roller2Name").val();
         $("#roller2Name").text(roller2Name);
     })
+    $("button #new-round").click(function(event){
+        $(".scores-container").hide();
+        clearValues();
+        roller1.newRound();
+        roller2.newRound();
+        $("#total-round1").empty();
+        $("#sore1-total").empty();
+        $("#roll-die1").empty();
+        $("#total-round2").empty();
+        $("#score2-total").empty();
+        $("#roll-die2").empty();
+    })
 })
