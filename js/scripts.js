@@ -19,3 +19,13 @@ roller.prototype.roll1 = function(){
             this.tempscore += this.roll;
     }
 }
+roller.prototype.hold = function(){
+    this.totalscore += this.tempscore;
+    this.tempscore =0; 
+    alert(this.rollerName + " , your turn is over, let the other roller play.")
+}
+roller.prototype.newRound = function(){
+    this.roll = 0;
+    this.tempscore = 0;
+    this.totalscore = "";
+}
