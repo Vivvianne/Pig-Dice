@@ -44,7 +44,7 @@ $(document).ready(function(){
 
         var roller2Name = $(".roller2Name").val();
         $("#roller2Name").text(roller2Name);
-    })
+    });
     $("button #new-round").click(function(event){
         $(".scores-container").hide();
         clearValues();
@@ -56,5 +56,12 @@ $(document).ready(function(){
         $("#total-round2").empty();
         $("#score2-total").empty();
         $("#roll-die2").empty();
-    })
+        $(".Begin-menu").show();
+    });
+    $("button#roller1-roll").click(function(event){
+        roller1.roll = throwdice();
+        $("#roll-die1").text(roller1.roll);
+        roller1.roll1();
+        $("#total-round1").text(roller1.tempscore)
+    });
 })
