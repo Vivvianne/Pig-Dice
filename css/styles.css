@@ -13,3 +13,17 @@ body{
     margin: 15px;
     border-radius: 25px;
 }
+.scores-container{
+    text-align: center;
+    margin: 50px;
+}
+.btn2{
+    margin: 90px;
+    background-color: beige;
+    border-radius: 25px;
+
+}
+.button{
+    border-radius: 25px;
+    background-color: lightgray;
+}
