@@ -11,3 +11,11 @@ function Roller(turn){
     this.turn = turn;
     this.rollerName;
 }
+roller.prototype.roll1 = function(){
+    if (this.roll ===1) {
+        this.tempscore=0;
+        alert("Very sorry" + this.rollerName + " ,you got a 1, your turn is over")
+        }else {
+            this.tempscore += this.roll;
+    }
+}
