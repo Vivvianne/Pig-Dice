@@ -17,7 +17,7 @@ to continue rolling, or the player can hold, thereby passing the turn to the opp
 turn, then the total(temporary score) is added to the total score.
 
 ## Live link
-Here is the live link 
+Here is the live link https://vivvianne.github.io/Pig-Dice/. 
 
 ## Technology used.
 HTML, CSS, JavaScript and JQuery were used.
