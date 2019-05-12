@@ -27,7 +27,7 @@ For more information abou this, you could send an email to ndiahav@gmail.com.
 
 ## Licence
 The MIT licence Copyright (c)2019
-Get the lince of this project here 
+Get the lince of this project here https://github.com/Vivvianne/Pig-Dice/commit/e606cb0ff24a916c840f9630f33942199659622c
 
 
 
