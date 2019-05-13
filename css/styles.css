@@ -1,12 +1,14 @@
 body{
     margin: auto;
     box-sizing: border-box;
+    background-image: url(../images/istockphoto.jpg)
 }
 .banner{
     background-color: bisque;
     /* background-image: url("../images/dice1.jpg");
     background-repeat: no-repeat; */
     border-radius: 25px;
+    margin: 30px;
 }
 .btn{
     margin: 90px;
